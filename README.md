@@ -1,6 +1,5 @@
 # Data Science Portfolio
 
-![Portfolio Preview](images/portfolio-preview.png)
 
 A modern, responsive portfolio website showcasing my data science projects, skills, and experience.
 
@@ -23,14 +22,15 @@ A modern, responsive portfolio website showcasing my data science projects, skil
 
 ## 📁 Project Structure
 portfolio/
-├── index.html # Main HTML file
-├── style.css # Stylesheet
-├── script.js # JavaScript functionality
-├── images/ # Image assets
-│ ├── profile.jpg # Profile picture
-│ ├── projects/ # Project screenshots
-│ └── certificates/ # Certification images
-└── README.md # This file
+
+----index.html # Main HTML file
+----style.css # Stylesheet
+----script.js # JavaScript functionality
+----images/ # Image assets
+    --profile.jpg # Profile picture
+    --projects/ # Project screenshots
+    --certificates/ # Certification images
+----README.md # This file
 
 
 
@@ -46,17 +46,14 @@ portfolio/
 
 ## 🌐 Live Demo
 
-Visit the live portfolio at: [https://yourusername.github.io](https://yourusername.github.io)
+Visit the live portfolio at: [https://Niveta12.github.io](https://Niveta12.github.io)
 
 ## 📧 Contact
 
 - **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- **GitHub**: [Your GitHub Profile](https://github.com/yourusername)
+- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/nivetha-rameshbabu/)
+- **GitHub**: [Your GitHub Profile](https://github.com/Niveta12)
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
