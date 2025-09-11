@@ -50,9 +50,9 @@ Visit the live portfolio at: [https://Niveta12.github.io](https://Niveta12.githu
 
 ## 📧 Contact
 
-- **Email**: your.email@example.com
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/nivetha-rameshbabu/)
-- **GitHub**: [Your GitHub Profile](https://github.com/Niveta12)
+- **Email**: nivirameshbabu@gmail.com
+- **LinkedIn**: (https://www.linkedin.com/in/nivetha-rameshbabu/)
+- **GitHub**: (https://github.com/Niveta12)
 
 
 ---
