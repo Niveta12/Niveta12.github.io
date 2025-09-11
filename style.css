@@ -1170,6 +1170,94 @@ section {
     margin-bottom: 20px;
 }
 
+/* Blog Section - Matching Education Section Style */
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+}
+
+.blog-card {
+    background-color: var(--darker-color);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+}
+
+.light-mode .blog-card {
+    background-color: var(--light-gray);
+}
+
+.blog-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.blog-date {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.blog-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: var(--lighter-color);
+}
+
+.light-mode .blog-card h3 {
+    color: var(--dark-color);
+}
+
+.blog-card p {
+    color: var(--gray-color);
+    margin-bottom: 15px;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+.read-more {
+    display: inline-flex;
+    align-items: center;
+    color: var(--primary-color);
+    font-weight: 500;
+    text-decoration: none;
+    transition: var(--transition);
+    margin-top: auto;
+}
+
+.read-more i {
+    margin-left: 5px;
+    transition: var(--transition);
+}
+
+.read-more:hover {
+    color: var(--secondary-color);
+}
+
+.read-more:hover i {
+    transform: translateX(5px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .blog-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    
+    .blog-card {
+        padding: 20px;
+    }
+    
+    .blog-card h3 {
+        font-size: 1.3rem;
+    }
+}
 /* Footer */
 .footer {
     background-color: var(--darker-color);
